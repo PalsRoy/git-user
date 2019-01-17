@@ -26,6 +26,8 @@ class GitUsers extends Component{
       <table className="table">
        <tr>
         <td>{user.login}</td>
+        <td><img src={user.avatar_url}/></td>
+        <td>{user.repos_url}</td>
        </tr>
       </table>
     )}
